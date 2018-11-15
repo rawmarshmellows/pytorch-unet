@@ -88,7 +88,7 @@ class Bridge(nn.Module):
         return self.bridge(x)
 
 
-class UNet(nn.Module, initializer.IInitializable):
+class UNet(nn.Module):
     """
     This is the UNet implementation referenced from:
     https://arxiv.org/abs/1505.04597
